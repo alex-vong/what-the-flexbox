@@ -202,11 +202,17 @@ input::-moz-focus-inner {
 	border: 10px solid dodgerblue;
 	min-height: 100vh;
 	display: flex;
-	flex-wrap: wrap;
-	align-content: center;
-	justify-content: center;
+	align-items: start;
 }
 
-.box {
-	width: 33.333%;
+.box9 {
+	align-self: center;
+}
+
+.box1 {
+	align-self: end;
+}
+
+.box5 {
+	align-self: stretch;
 }
