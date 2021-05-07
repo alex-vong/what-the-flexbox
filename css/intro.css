@@ -200,18 +200,12 @@ input::-moz-focus-inner {
 
 .container {
 	border: 10px solid dodgerblue;
-
+	min-height: 100vh;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .box {
 	flex: 1;
-}
-
-.box5 {
-	order: 1;
-}
-
-.box7 {
-	order: 2;
 }
