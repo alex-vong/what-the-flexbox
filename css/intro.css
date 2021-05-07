@@ -201,6 +201,6 @@ input::-moz-focus-inner {
 .container {
 	min-height: 100vh;
 	display: flex;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	border: 10px solid dodgerblue;
 }
