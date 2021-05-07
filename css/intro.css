@@ -199,8 +199,14 @@ input::-moz-focus-inner {
 /* We start writing out flexbox here. The above is just page setup */
 
 .container {
+	border: 10px solid dodgerblue;
 	min-height: 100vh;
 	display: flex;
-	flex-direction: column-reverse;
-	border: 10px solid dodgerblue;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.box {
+	width: calc(33.333% - 20px);
+	margin: 10px;
 }
