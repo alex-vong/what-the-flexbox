@@ -199,20 +199,16 @@ input::-moz-focus-inner {
 /* We start writing out flexbox here. The above is just page setup */
 
 .container {
-	border: 10px solid dodgerblue;
-	min-height: 100vh;
 	display: flex;
-	align-items: start;
-}
-
-.box9 {
-	align-self: center;
 }
 
 .box1 {
-	align-self: end;
+	flex-basis: 400px;
+	flex-grow: 1;
+	flex-shrink: 10;
 }
 
-.box5 {
-	align-self: stretch;
+.box2 {
+	flex-basis: 400px;
+	flex-grow: 1;
 }
