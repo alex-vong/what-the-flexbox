@@ -208,3 +208,7 @@ input::-moz-focus-inner {
 .box9 {
 	align-self: center;
 }
+
+.box1 {
+	align-self: end;
+}
