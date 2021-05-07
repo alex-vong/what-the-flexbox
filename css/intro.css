@@ -204,3 +204,7 @@ input::-moz-focus-inner {
 	display: flex;
 	align-items: start;
 }
+
+.box9 {
+	align-self: center;
+}
