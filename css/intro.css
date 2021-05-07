@@ -205,7 +205,3 @@ input::-moz-focus-inner {
 	align-items: center;
 	justify-content: center;
 }
-
-.box {
-	flex: 1;
-}
