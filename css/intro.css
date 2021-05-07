@@ -199,7 +199,19 @@ input::-moz-focus-inner {
 /* We start writing out flexbox here. The above is just page setup */
 
 .container {
-	height: 100vh;
-	display: flex;
 	border: 10px solid dodgerblue;
+
+	display: flex;
+}
+
+.box {
+	flex: 1;
+}
+
+.box5 {
+	order: 1;
+}
+
+.box7 {
+	order: 2;
 }
