@@ -212,3 +212,7 @@ input::-moz-focus-inner {
 .box1 {
 	align-self: end;
 }
+
+.box5 {
+	align-self: stretch;
+}
