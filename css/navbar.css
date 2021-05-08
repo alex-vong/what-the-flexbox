@@ -43,7 +43,8 @@ li {
 		margin: 0 auto;
 		padding: 0 15px;
 		flex-direction: row;
-		justify-content: space-between;
+    justify-content: space-between;
+   
 	}
 
 	li {
